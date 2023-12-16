@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/7b8d692a-578e-405b-b183-7244516acacf/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/embolado",
+    "appService.deploySubpath": "build"
+}
