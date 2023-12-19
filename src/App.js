@@ -1,12 +1,21 @@
 import './App.css';
-import Persons from './components/Persons'
+import Person from './components/Person'
 
 function App() {
+  console.log('GoGo')
+  const showPerson = true;
   return (
     <div className="App">
-      <header className="App-header">
-        <Persons />
-      </header>
+      {showPerson ? (
+      <>
+        <Person />
+        <Person />
+        <Person />
+      </>
+
+      ) : (
+        <p>Not see noting</p>
+      )}
     </div>
   );
 }
