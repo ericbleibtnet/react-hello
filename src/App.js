@@ -8,8 +8,8 @@ function App() {
       {showPerson ? (
       <>
         <Person name="Eric" />
-        <Person />
-        <Person />
+        <Person name="Perpetua" />
+        <Person name="Caleb" />
       </>
 
       ) : (
