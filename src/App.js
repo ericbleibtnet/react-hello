@@ -2,13 +2,12 @@ import './App.css';
 import Person from './components/Person'
 
 function App() {
-  console.log('GoGo')
   const showPerson = true;
   return (
     <div className="App">
       {showPerson ? (
       <>
-        <Person />
+        <Person name="Eric" />
         <Person />
         <Person />
       </>

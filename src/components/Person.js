@@ -1,6 +1,6 @@
-function Person (){
+function Person (props){
     return (
-        <h3>Here is a person!</h3>
+        <h3>Person {props.name}</h3>
 
     );
 }
